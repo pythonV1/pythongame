@@ -60,7 +60,7 @@ def announce_winner(message):
 #How do I undo the most recent local commits in Git?
 # Function to restart the game
 def restart_game():
-    global board, player, game_over
+    global board, player, game_over,rtyyy
     board = create_board()
     player = "X"
     game_over = False
